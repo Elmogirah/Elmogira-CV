@@ -4,49 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>السيرة الذاتية - المغيرة الطيب</title>
+  <!-- إضافة خطوط جوجل -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Cairo', sans-serif;
       direction: rtl;
       text-align: right;
+      background-color: #f4f4f9;
+      margin: 0;
       padding: 20px;
-      background-color: #f9f9f9;
+      color: #333;
     }
-    h1, h2 {
-      color: #2c3e50;
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      color: #2C3E50;
+    }
+    h2 {
+      font-size: 1.8em;
+      color: #2980B9;
+      margin-bottom: 10px;
     }
     .section {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
       margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
     .section h2 {
-      border-bottom: 2px solid #2c3e50;
+      border-bottom: 2px solid #2980B9;
       padding-bottom: 5px;
     }
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
-    }
     .profile-pic {
+      display: block;
+      margin: 0 auto;
       width: 150px;
       border-radius: 50%;
+      border: 3px solid #2980B9;
     }
     .cover-photo {
       width: 100%;
       height: auto;
+      border-radius: 8px;
       margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    ul li:last-child {
+      border-bottom: none;
+    }
+    a {
+      color: #2980B9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      color: #777;
     }
   </style>
 </head>
 <body>
+
   <h1>السيرة الذاتية - المغيرة الطيب</h1>
 
   <!-- صورة الغلاف -->
-  <img src=
-https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b12cf0644484ba/1544691775352.jfif alt="صورة الغلاف" class="cover-photo">
+  <img src="https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b12cf0644484ba/1544691775352.jfif" alt="صورة الغلاف" class="cover-photo">
 
   <!-- الصورة الشخصية -->
-  <img src=https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b12cf0644484ba/1544091636049.jfif alt="صورتي الشخصية" class="profile-pic">
+  <img src="https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b12cf0644484ba/1544091636049.jfif" alt="صورتي الشخصية" class="profile-pic">
 
   <div class="section">
     <h2>الاسم</h2>
@@ -71,7 +108,7 @@ https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b
   <div class="section">
     <h2>الخبرات العملية</h2>
     <ul>
-      <li>مدير قسم الصيانة في HMS، دبي، الإمارات العربية المتحدة (2/2022 حتى الآن)</li>
+      <li>مهندس صيانة ودعم فني في HMS، دبي، الإمارات العربية المتحدة (2/2022 حتى الآن)</li>
       <li>مهندس ميكانيكي في HMS Al Garhoud Hospital، الإمارات العربية المتحدة</li>
       <li>مهندس صيانة في شركة NAMA FOR PILES Ltd Co.، السودان (07/2017 إلى 11/2018)</li>
     </ul>
@@ -108,5 +145,10 @@ https://raw.githubusercontent.com/Elmogirah/Elmogira/8838eaff8c13f5007dac7c0967b
     <p>LinkedIn: <a href="https://www.linkedin.com/in/elmogira-altyieb-074517160">linkedin.com/in/elmogira-altyieb</a></p>
     <p>الهاتف: +971-504194092</p>
   </div>
+
+  <footer>
+    <p>© 2024 المغيرة الطيب. جميع الحقوق محفوظة.</p>
+  </footer>
+
 </body>
-</html># Elmogira-CV
+</html>
