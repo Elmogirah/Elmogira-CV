@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مهندس HVAC - المغيرة الطيب</title>
+  <title>السيرة الذاتية - المغيرة الطيب</title>
   
   <!-- إضافة خطوط جوجل -->
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
       font-family: 'Tajawal', sans-serif;
       direction: rtl;
       text-align: right;
-      background: linear-gradient(to right, #ece9e6, #ffffff);
+      background-color: #f5f7fa; /* لون خلفية ناعم يتناسب مع الألوان */
       margin: 0;
       padding: 0;
       color: #333;
@@ -23,19 +24,19 @@
       font-family: 'Cairo', sans-serif;
       font-size: 3em;
       text-align: center;
-      color: #2c3e50;
+      color: #2c3e50; /* لون غامق للعناوين */
       margin-top: 20px;
     }
 
     h2 {
       font-family: 'Cairo', sans-serif;
       font-size: 1.8em;
-      color: #2980b9;
+      color: #2980b9; /* لون هادئ للعناوين الفرعية */
       margin-bottom: 10px;
     }
 
     .section {
-      background-color: #fff;
+      background-color: #ffffff; /* خلفية بيضاء للقسم لخلق تباين جيد */
       border-radius: 10px;
       padding: 20px;
       margin: 20px auto;
@@ -44,7 +45,7 @@
     }
 
     .section h2 {
-      border-bottom: 2px solid #2980b9;
+      border-bottom: 2px solid #2980b9; /* خط سفلي بنفس لون العناوين الفرعية */
       padding-bottom: 5px;
     }
 
@@ -53,7 +54,7 @@
       margin: 0 auto;
       width: 150px;
       border-radius: 50%;
-      border: 3px solid #2980b9;
+      border: 3px solid #2980b9; /* نفس اللون المستخدم للعناوين لخلق تناسق */
       margin-bottom: 20px;
     }
 
@@ -90,7 +91,7 @@
     footer {
       text-align: center;
       padding: 20px 0;
-      background-color: #2c3e50;
+      background-color: #2c3e50; /* لون غامق للتباين */
       color: #fff;
       margin-top: 20px;
     }
@@ -154,7 +155,7 @@
     <h2>المهارات الشخصية</h2>
     <ul>
       <li>العمل بفاعلية وسرعة عالية وذكاء</li>
-      <li>حل المشكلات بفعالية</li>
+<li>حل المشكلات بفعالية</li>
       <li>مهارات التواصل الفعال</li>
       <li>القدرة على القيادة والتوجيه</li>
       <li>إدارة الوقت بكفاءة</li>
@@ -164,7 +165,7 @@
   <div class="section">
     <h2>اللغات</h2>
     <ul>
-<li>العربية: اللغة الأم</li>
+      <li>العربية: اللغة الأم</li>
       <li>الإنجليزية: مستوى متقدم</li>
     </ul>
   </div>
@@ -173,7 +174,7 @@
     <h2>الدورات التدريبية</h2>
     <ul>
       <li>أنظمة التحكم في المعدات الثقيلة</li>
-      <li>OSHA</li>
+      <li>إدارة و تخطيط الصانة</li>
       <li>إدارة وصيانة أنظمة HVAC</li>
       <li>أنظمة إدارة المباني</li>
       <li>السلامة والصحة المهنية</li>
