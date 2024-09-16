@@ -1,77 +1,98 @@
-<!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>السيرة الذاتية - المغيرة الطيب</title>
+  
   <!-- إضافة خطوط جوجل -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Cairo', sans-serif;
+      font-family: 'Tajawal', sans-serif;
       direction: rtl;
       text-align: right;
-      background-color: #f4f4f9;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
       margin: 0;
-      padding: 20px;
+      padding: 0;
       color: #333;
+      font-size: 16px;
     }
+
     h1 {
-      font-size: 2.5em;
+      font-family: 'Cairo', sans-serif;
+      font-size: 3em;
       text-align: center;
-      color: #2C3E50;
+      color: #2c3e50;
+      margin-top: 20px;
     }
+
     h2 {
+      font-family: 'Cairo', sans-serif;
       font-size: 1.8em;
-      color: #2980B9;
+      color: #2980b9;
       margin-bottom: 10px;
     }
+
     .section {
       background-color: #fff;
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
+
     .section h2 {
-      border-bottom: 2px solid #2980B9;
+      border-bottom: 2px solid #2980b9;
       padding-bottom: 5px;
     }
+
     .profile-pic {
       display: block;
       margin: 0 auto;
       width: 150px;
       border-radius: 50%;
-      border: 3px solid #2980B9;
+      border: 3px solid #2980b9;
+      margin-bottom: 20px;
     }
+
     .cover-photo {
       width: 100%;
       height: auto;
       border-radius: 8px;
       margin-bottom: 20px;
     }
+
     ul {
       list-style: none;
       padding: 0;
     }
+
     ul li {
       padding: 10px 0;
       border-bottom: 1px solid #eee;
     }
+
     ul li:last-child {
       border-bottom: none;
     }
+
     a {
-      color: #2980B9;
+      color: #2980b9;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     footer {
       text-align: center;
       padding: 20px 0;
-      color: #777;
+      background-color: #2c3e50;
+      color: #fff;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -130,12 +151,32 @@
   </div>
 
   <div class="section">
+    <h2>المهارات الشخصية</h2>
+    <ul>
+      <li>العمل بفاعلية وسرعة عالية وذكاء</li>
+      <li>حل المشكلات بفعالية</li>
+      <li>مهارات التواصل الفعال</li>
+      <li>القدرة على القيادة والتوجيه</li>
+      <li>إدارة الوقت بكفاءة</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>اللغات</h2>
+    <ul>
+<li>العربية: اللغة الأم</li>
+      <li>الإنجليزية: مستوى متقدم</li>
+    </ul>
+  </div>
+
+  <div class="section">
     <h2>الدورات التدريبية</h2>
     <ul>
       <li>أنظمة التحكم في المعدات الثقيلة</li>
       <li>OSHA</li>
       <li>إدارة وصيانة أنظمة HVAC</li>
       <li>أنظمة إدارة المباني</li>
+      <li>السلامة والصحة المهنية</li>
     </ul>
   </div>
 
